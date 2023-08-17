@@ -8,7 +8,7 @@ let scoreboard : Scoreboard<PlayerElement>
 
 initialize()
 
-async function initialize(){
+function initialize(){
   scoreboard = new Scoreboard()
   scoreboard.register('X', 'O')
 
